@@ -34,10 +34,19 @@ $(document).ready(function () {
 
       });
     }
-  //calling the function
+    //calling the function
     getCountry("Singapore");
 
-
+    //function to change things after clicking dropdown or something
+    $("#change-cont").on("change",function(e){
+      //get the name and value of the selection
+      let txtName = $('#change-cont option:selected').text();
+      let value = $('#change-cont option:selected').val();
+      //call function but now with different name
+      getCountry(value);
+      //change header name
+      $("#cont-name").html(txtName);
+    });
 
   })
  
