@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+    <head>
+        <title>Covinfo</title>
+        
+        <!--Bootstrap Stylesheet thing-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        
+        <!--Own Stylesheet-->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <!--Section for showing stats-->
+        <div class = "stat_box">
+            <div class = "test">
+                <h2 class = "stat_title">Covid Info (Singapore)</h2>
+            </div>        
+            <!--Cases-->
+            <p class = "stat_p">Cases today: <span class = "now_case"></span> </p>
+            <p class = "stat_p"> Cases total: <span class = "total_case"></span> </p>
+            <!--Deaths-->
+            <p class = "stat_p">Deaths today: <span class = "now_death"></span> </p>
+            <p class = "stat_p">Deaths total: <span class = "total_death"></span> </p>
+            <!--Reco-->
+            <p class = "stat_p">Recoveries today: <span class = "now_reco"></span> </p>
+            <p class = "stat_p">Recoveries total: <span class = "total_reco"></span> </p>
+        </div>
+
+        <!--Section where warning messages are displayed. Dependent on cases-->
+        <div id = "notice">
+            <!--For 0 cases-->
+            <div id = "safe-1" class = "warn">
+                <p> No cases today. Continue to keep clean and follow precautions, however!</p>
+            </div>
+
+            <!--For 1-50 cases-->
+            <div id = "safe-2" class = "warn">
+                <p> Few cases today. Continue to keep clean and follow precautions, however!</p>
+            </div>
+
+            <!--Section where warning messages are displayed. Dependent on cases-->
+            <div id = "safe-1" class = "warn">
+                <p> No cases today. Continue to keep clean and follow precautions, however!</p>
+            </div>
+
+            <!--Section where warning messages are displayed. Dependent on cases-->
+            <div id = "safe-1" class = "warn">
+                <p> No cases today. Continue to keep clean and follow precautions, however!</p>
+            </div>
+
+        </div>
+
+        <!--Link onto other page-->
+        <a href = "html/form.html">Submit new entry</a>
+        
+        <!-- Ref to jquery script-->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        
+        <!--Ref to bootstrap popper and js things-->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+        
+        <!-- Ref to my actual script-->
+        <script src="js/script.js"></script>
+    </body>
+</html>

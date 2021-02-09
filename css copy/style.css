@@ -1,0 +1,25 @@
+/*Style that applies to index page*/
+body {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.stat_box {
+    background-color: rgb(217, 219, 243);
+    width: max-content;
+    margin:5px;
+}
+.stat_title{
+    color: whitesmoke;
+    background-color: grey;
+    margin: 0;
+    
+}
+
+.stat_p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
