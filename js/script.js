@@ -22,22 +22,15 @@ $(document).ready(function () {
         let nowDeath = response.todayDeaths;
         let totalReco = response.recovered;
         let nowReco = response.todayRecovered;
-        //let percent =  Math.round((totalDeath / totalCase)) *100 ;
 
-        //create big thing to append later
-        //var addStat = '<p id = "now_Death"> Deaths today: ' + nowDeath + '</p>'
-        //console.log(addStat)
-        //$(".stat_box").append(addStat);
 
-        //test function
-        $(".total_case").append(totalCase);
-        $(".now_case").append(nowCase);
-        $(".total_death").append(totalDeath);
-        $(".now_death").append(nowDeath);
-        $(".total_reco").append(totalReco);
-        $(".now_reco").append(nowReco);
-        //$(".percent").append(percent);
-
+        //Replace whatever is in them with new content
+        $(".total_case").html(totalCase);
+        $(".now_case").html(nowCase);
+        $(".total_death").html(totalDeath);
+        $(".now_death").html(nowDeath);
+        $(".total_reco").html(totalReco);
+        $(".now_reco").html(nowReco);
 
       });
     }
