@@ -4,7 +4,7 @@ $(document).ready(function () {
     function getCountry(country) {
       //settings for the AJAX thing
       var settings = {
-        "url": "https://disease.sh/v3/covid-19/countries/Singapore", 
+        "url": "https://disease.sh/v3/covid-19/countries/" +country, 
         "method": "GET",
         "timeout": 0,
         "headers": {
