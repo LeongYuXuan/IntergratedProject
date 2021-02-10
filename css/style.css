@@ -24,7 +24,13 @@ body {
 }
 
 #notice{
+    align-items: center;
+    color: white;
     background-color: rgb(161, 161, 161);
     width: 700px;
     height: 50px;
+}
+
+.warn{
+    align-items: center;
 }

@@ -38,10 +38,10 @@ Status: Fixed
 ### Warning message test by putting different numbers
 Action: Put in different number values (0, 15, 51, 111, 350, 1500)
 
-Observation: 
+Observation: Code works as intended. Numbers to gauge the warning messages need tweaking.
 
-Response:  
+Todo: Adjust warning breakpoints
 
-Status: 
+Status: Not done
 
 ## Credits
