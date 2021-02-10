@@ -19,7 +19,7 @@ Once again, the workflow would be having the basic functionality be set in place
 - [ ] Educational section with reading materials and quizes
 - [ ] Rewards for completing quizes/reaching milestones
 - [ ] Localstorage usage to track rewards
-- [ ] Optional: Allow changing of countries and save it in local storage.
+- [x] Optional: Allow changing of countries ~~and save it in local storage~~ .
 ## Tech Used
 * HTML Boilerplate (Visual Studio) https://marketplace.visualstudio.com/items?itemName=sidthesloth.html5-boilerplate
 * W3C HTML validator https://validator.w3.org/
@@ -27,6 +27,11 @@ Once again, the workflow would be having the basic functionality be set in place
 * jshint JS linter(?) https://jshint.com/
 * CV-19 API: https://disease.sh/
 ## Test Runs
+### Test changing of country to display different country (9 Feb 2021)
+Observation: Did not work very well despite copy-paste from fully functional code from PiP assignment. 
 
+Action: Fix referencing errors to initial html code. 
+
+Status: Fixed
 
 ## Credits
