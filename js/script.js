@@ -30,8 +30,6 @@ $(document).ready(function () {
 
 
 
-
-
     //function to request info on sg cases 
     function getCountry(country) {
       //settings for the AJAX thing
