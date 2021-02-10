@@ -4,6 +4,30 @@ $(document).ready(function () {
   //Hide warning messages 
   $(".warn").hide();
 
+  //Show warning message depending on number of cases
+  function riskMessage(cs){
+    if (cs == 0){
+      $("#safe-1").show();
+
+    } else if (cs < 50) {
+      $("#safe-2").show();
+
+    } else if (cs < 100) {
+      $("#mid-1").show();
+
+    } else if (cs < 300) {
+      $("#mid-2").show();
+
+    } else if (cs < 1000) {
+      $("#mid-3").show();
+
+    } else {
+      $("#hi").show();
+
+    }
+
+  };
+
 
 
 
