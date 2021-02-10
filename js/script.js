@@ -61,7 +61,7 @@ $(document).ready(function () {
         $(".now_reco").html(nowReco);
 
         //Calling riskMessage function
-        riskMessage(1500);
+        riskMessage(nowCase);
 
       });
     }
