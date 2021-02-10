@@ -1,4 +1,5 @@
 .heading-box{
-    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
     background-color: azure;
 }
