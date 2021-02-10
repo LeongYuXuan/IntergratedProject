@@ -27,11 +27,21 @@ Once again, the workflow would be having the basic functionality be set in place
 * jshint JS linter(?) https://jshint.com/
 * CV-19 API: https://disease.sh/
 ## Test Runs
+
 ### Test changing of country to display different country (9 Feb 2021)
 Observation: Did not work very well despite copy-paste from fully functional code from PiP assignment. 
 
-Action: Fix referencing errors to initial html code. 
+Response: Fix referencing errors to initial html code. 
 
 Status: Fixed
+
+### Warning message test by putting different numbers
+Action: Put in different number values (0, 15, 51, 111, 350, 1500)
+
+Observation: 
+
+Response:  
+
+Status: 
 
 ## Credits

@@ -24,11 +24,9 @@ $(document).ready(function () {
     } else {
       $("#hi").show();
 
-    }
+    };
 
   };
-
-
 
     //function to request info on sg cases 
     function getCountry(country) {
@@ -61,6 +59,9 @@ $(document).ready(function () {
         $(".now_death").html(nowDeath);
         $(".total_reco").html(totalReco);
         $(".now_reco").html(nowReco);
+
+        //Calling riskMessage function
+        riskMessage(nowCase);
 
       });
     }
