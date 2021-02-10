@@ -23,3 +23,8 @@ body {
     margin-bottom: 5px;
 }
 
+#notice{
+    background-color: rgb(161, 161, 161);
+    width: 700px;
+    height: 50px;
+}

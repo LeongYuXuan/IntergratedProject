@@ -1,5 +1,13 @@
 //Start of evey js thing
 $(document).ready(function () {
+
+  //Hide warning messages 
+  $(".warn").hide();
+
+
+
+
+
     //function to request info on sg cases 
     function getCountry(country) {
       //settings for the AJAX thing
