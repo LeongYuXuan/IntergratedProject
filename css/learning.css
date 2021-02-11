@@ -8,7 +8,16 @@
 }
 
 #lesson-box{
-    display: flex;
-    flex-direction: column;
     background-color: aliceblue;
+}
+
+.lesson-button{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    background-color: aqua;
+}
+
+.imp{
+    background-color: yellow;
 }
