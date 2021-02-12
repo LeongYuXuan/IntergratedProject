@@ -1,11 +1,14 @@
 //Start of evey js thing
 $(document).ready(function () {
 
-  //Hide warning messages 
-  $(".warn").hide();
+  
 
   //Show warning message depending on number of cases
   function riskMessage(cs){
+
+    //Hide warning messages upon calling
+    $(".warn").hide();
+    
     if (cs == 0){
       $("#safe-1").show();
 
