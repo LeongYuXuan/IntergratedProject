@@ -4,9 +4,6 @@ $(document).ready(function (){
         $("#m1 img").attr('src',"../image/circuit-breaker.png")
     }
 
-
-
-
     //function to send user to lesson 1 page
     $("#lesson-1").on("click",function(){
         window.location.replace("lesson-1.html");
