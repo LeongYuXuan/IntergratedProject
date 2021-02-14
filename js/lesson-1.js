@@ -1,6 +1,26 @@
 $(document).ready(function (){
+    //var which would trigger medal give 
     var complete1 = false;
-    //Send back to  lesson page with new thing
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    //Finish lesson button.
+    //Registers true for "complete" if all quizes done right 
     $("#complete").on("click",function(){
         console.log("test complete");
         complete1 = true;
