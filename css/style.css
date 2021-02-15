@@ -2,7 +2,17 @@
 body {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
+
+/*css for all site content*/
+.main-box{
+    width: 414px;
+    border-color: black;
+    border-style:solid;
+}
+
+
 
 /*CSS for Heading box*/
 .heading-box{
@@ -13,6 +23,8 @@ body {
 #icon{
     background-color: gray ;
 }
+/*end of css for heading box*/
+
 
 /*CSS for The stat box*/
 .stat_box {
@@ -40,7 +52,7 @@ body {
     align-items: center;
     color: white;
     background-color: rgb(161, 161, 161);
-    width: 700px;
+    
     height: 50px;
 }
 
