@@ -1,6 +1,4 @@
 /*Style that applies to index page*/
-body {
-}
 
 /*css for all site content*/
 .main-box{
@@ -11,8 +9,6 @@ body {
     border-style:solid;
 }
 /*end of css for site content*/
-
-
 
 /*CSS for Heading box*/
 .heading-box{
