@@ -1,27 +1,30 @@
 /*Style that applies to index page*/
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 /*css for all site content*/
 .main-box{
+    display: flex;
+    flex-direction: column;
     width: 414px;
     border-color: black;
     border-style:solid;
 }
+/*end of css for site content*/
 
 
 
 /*CSS for Heading box*/
 .heading-box{
     display: flex;
+    justify-content: center;
     background-color: rgb(90, 90, 250);
+    
 }
 
 #icon{
     background-color: gray ;
+    
 }
 /*end of css for heading box*/
 
@@ -29,7 +32,7 @@ body {
 /*CSS for The stat box*/
 .stat_box {
     background-color: rgb(217, 219, 243);
-    width: max-content;
+    width: fit-content;
     margin:5px;
 }
 .stat_title{
@@ -57,4 +60,8 @@ body {
 
 .warn{
     align-items: center;
+}
+/*end of CSS for notice messages*/
+#lrnmr{
+    align-self: center;
 }
