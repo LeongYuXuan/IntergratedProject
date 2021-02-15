@@ -38,21 +38,20 @@ body {
     margin: 0;
     
 }
-/*end of CSS for The stat box*/
-
 
 .stat_p{
     margin-top: 5px;
     margin-bottom: 5px;
 }
-
+/*end of CSS for The stat box*/
 
 /*CSS for notice messages*/
 #notice{
+    margin-top: 5px;
+    margin-bottom: 5px;
     align-items: center;
     color: white;
     background-color: rgb(161, 161, 161);
-    
     height: 50px;
 }
 
