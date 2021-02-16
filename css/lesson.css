@@ -33,11 +33,13 @@
 #placeholder{
     align-self: center;
 }
-/*CSS for learning content box*/
+/* end of CSS for learning content box*/
 
 /*css for sections*/
 .section{
-    width: 400px ;
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     
 }
 
@@ -46,4 +48,11 @@
 .content-img{
     width: 390px;
     margin: 5px;
+}
+
+/*CSS for qns*/
+form{
+    
+    display: flex;
+    flex-direction: column;
 }
