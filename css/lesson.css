@@ -22,13 +22,22 @@
 /*end of css for heading box*/
 
 
-
 /*CSS for learning content box*/
 .content-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
-    font-size: small;
 }
 
 #placeholder{
     align-self: center;
+}
+/*CSS for learning content box*/
+
+
+/*CSS for imgs*/
+.content-img{
+    margin: 10px;
+    width: 400px;
 }
