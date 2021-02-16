@@ -15,10 +15,10 @@ With the nature of the webapp, the page would greatly benefit from a "mobile-fir
 Once again, the workflow would be having the basic functionality be set in place before having the art assets be put in place.
 ## Features (Added ones are ticked)
 - [x] Display Daily updated Cv Stats on Singapore
-- [ ] Display Warning messages based on statistics on that day
+- [x] Display Warning messages based on statistics on that day
 - [ ] Educational section with reading materials and quizes
 - [ ] Rewards for completing quizes/reaching milestones
-- [ ] Localstorage usage to track rewards
+- [x] Localstorage usage to track rewards
 - [x] Optional: Allow changing of countries ~~and save it in local storage~~ .
 ## Tech Used
 * HTML Boilerplate (Visual Studio) https://marketplace.visualstudio.com/items?itemName=sidthesloth.html5-boilerplate
