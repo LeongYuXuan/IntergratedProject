@@ -3,7 +3,7 @@ $(document).ready(function (){
     var complete1 = false;
     
     
-    
+    //code to check if thing is correct I guess
     
     
     

@@ -35,9 +35,15 @@
 }
 /*CSS for learning content box*/
 
+/*css for sections*/
+.section{
+    width: 400px ;
+    
+}
+
 
 /*CSS for imgs*/
 .content-img{
-    margin: 10px;
-    width: 400px;
+    width: 390px;
+    margin: 5px;
 }
