@@ -9,16 +9,6 @@ $(document).ready(function (){
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     //Finish lesson button.
     //Registers true for "complete" if all quizes done right 
     $("#complete").on("click",function(){
