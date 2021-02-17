@@ -39,17 +39,18 @@ $(document).ready(function (){
         //if statement to see if correct checkboxes are selected
         if(a2 == true && b2 == true && c2 == true && d2 == true){
             console.log("correct");
+            $("#yes-two").show();
         } else {
-            console.log('wrong ;-;');
+            console.log("wrong ;-;");
+            $("#no-two").show();
         };
-        
-        
 
-
-        //if($('input[name="question1"]:checked').val() == "Donkey"){
-            //console.log("correct");
-        //}
+        //disable form after input
+        $("#quiz2 input").prop("disabled",true)
+        
     });
+
+    
 
     
     //Finish lesson button.
