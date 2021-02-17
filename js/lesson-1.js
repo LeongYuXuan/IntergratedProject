@@ -50,7 +50,29 @@ $(document).ready(function (){
         
     });
 
-    
+    //event listner to check if q2 is correct
+    $("#q3").on("click",function(e){
+        e.preventDefault();
+
+        //check which checkboxes are checked
+        var a3 = $('#a2').prop('checked');
+        var b3 = $('#b2').prop('checked');
+        var c3 = $('#c2').prop('checked');
+        var d3 = $('#d2').prop('checked');
+        
+        //if statement to see if correct checkboxes are selected
+        if(b3 == true){
+            console.log("correct");
+            $("#yes-three").show();
+        } else {
+            console.log("wrong ;-;");
+            $("#no-three").show();
+        };
+
+        //disable form after input
+        $("#quiz3 input").prop("disabled",true)
+        
+    });
 
     
     //Finish lesson button.
