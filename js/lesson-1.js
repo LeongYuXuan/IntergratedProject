@@ -3,16 +3,26 @@ $(document).ready(function (){
     $(".response").hide();
 
     //var which would trigger medal give 
-    var complete1 = false;
+    var complete1 = true;
     
     
     //event listner to check if q1 is correct
     $("#q1").on("click",function(e){
         e.preventDefault();
-        console.log($('input[name="question1"]:checked').val());
+
+        //Check if the correct ans is choosen
         if($('input[name="question1"]:checked').val() == "Donkey"){
             console.log("correct");
+            $("#yes-one").show();
+        } else {
+            console.log("wrong");
+            $("#no-one").show();
         }
+
+        //disable form after input
+        $("#quiz1 input").prop("disabled",true)
+        
+        
     });
 
 
