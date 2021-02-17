@@ -17,9 +17,25 @@ $(document).ready(function (){
 
 
     //event listner to check if q2 is correct
-    $("#q1").on("click",function(e){
+    $("#q2").on("click",function(e){
         e.preventDefault();
-        console.log($('input[name="question2"]:checked').val());
+
+        //check which checkboxes are checked
+        var a2 = $('#a2').prop('checked');
+        var b2 = $('#b2').prop('checked');
+        var c2 = $('#c2').prop('checked');
+        var d2 = $('#d2').prop('checked');
+        
+        //if statement to see if correct checkboxes are selected
+        if(a2 == true && b2 == true && c2 == true && d2 == true){
+            console.log("correct");
+        } else {
+            console.log('wrong ;-;');
+        };
+        
+        
+
+
         //if($('input[name="question1"]:checked').val() == "Donkey"){
             //console.log("correct");
         //}
