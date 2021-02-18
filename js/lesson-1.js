@@ -11,12 +11,13 @@ $(document).ready(function (){
         e.preventDefault();
 
         //Check if the correct ans is choosen
-        if($('input[name="question1"]:checked').val() == "Donkey"){
+        if($('input[name="question1"]:checked').val() == "a"){
             console.log("correct");
             $("#yes-one").show();
         } else {
             console.log("wrong");
             $("#no-one").show();
+            complete1 = false;
         }
 
         //disable form after input
@@ -43,6 +44,7 @@ $(document).ready(function (){
         } else {
             console.log("wrong ;-;");
             $("#no-two").show();
+            complete1 = false;
         };
 
         //disable form after input
@@ -50,24 +52,20 @@ $(document).ready(function (){
         
     });
 
-    //event listner to check if q2 is correct
+    //event listner to check if q3 is correct
     $("#q3").on("click",function(e){
         e.preventDefault();
 
-        //check which checkboxes are checked
-        var a3 = $('#a2').prop('checked');
-        var b3 = $('#b2').prop('checked');
-        var c3 = $('#c2').prop('checked');
-        var d3 = $('#d2').prop('checked');
-        
-        //if statement to see if correct checkboxes are selected
-        if(b3 == true){
+        //Check if the correct ans is choosen
+        if($('input[name="question3"]:checked').val() == "b"){
             console.log("correct");
             $("#yes-three").show();
         } else {
-            console.log("wrong ;-;");
+            console.log("wrong");
             $("#no-three").show();
-        };
+        }
+
+        
 
         //disable form after input
         $("#quiz3 input").prop("disabled",true)
