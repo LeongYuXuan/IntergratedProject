@@ -3,7 +3,7 @@ $(document).ready(function (){
 
     //What is Covid-19?
     if (JSON.parse(localStorage.getItem("complete1")) == true){
-        $("#m1 img").attr('src',"../image/circuit-breaker.png")
+        $("#m1 img").attr('src',"../image/what-cov.png")
     }
 
     //Safety Precautions
@@ -18,7 +18,7 @@ $(document).ready(function (){
 
     //What is Covid-19? Extra
     if (JSON.parse(localStorage.getItem("complete1")) == true){
-        $("#m1 img").attr('src',"../image/circuit-breaker.png")
+        $("#m1 img").attr('src',"../image/what-cov-ex.png")
     }
 
     //How it became pandemic
@@ -28,7 +28,7 @@ $(document).ready(function (){
 
     //Damages by covid
     if (JSON.parse(localStorage.getItem("complete1")) == true){
-        $("#m1 img").attr('src',"../image/circuit-breaker.png")
+        $("#m1 img").attr('src',"../image/effect-covid")
     }
 
 
