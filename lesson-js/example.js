@@ -65,8 +65,6 @@ $(document).ready(function (){
             $("#no-three").show();
         }
 
-        
-
         //disable form after input
         $("#quiz3 input").prop("disabled",true)
         
@@ -77,8 +75,12 @@ $(document).ready(function (){
     //Registers true for "complete" if all quizes done right 
     $("#complete").on("click",function(){
         console.log("test complete");
-        complete1 = true;
-        localStorage.setItem("complete1",JSON.stringify(complete1));
+
+        //only give medal if all quizes correct
+        if (complete1 == true){
+            localStorage.setItem("complete1",JSON.stringify(complete1));
+        }
+        
         
     })
 
