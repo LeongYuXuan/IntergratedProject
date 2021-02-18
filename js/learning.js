@@ -8,35 +8,29 @@ $(document).ready(function (){
 
     //Safety Precautions
     if (JSON.parse(localStorage.getItem("complete1")) == true){
-        $("#m1 img").attr('src',"../image/safety-precautions.png")
+        $("#m2 img").attr('src',"../image/safety-precautions.png")
     }
 
     //SG Circuit Breaker precautions
     if (JSON.parse(localStorage.getItem("complete1")) == true){
-        $("#m1 img").attr('src',"../image/circuit-breaker.png")
+        $("#m3 img").attr('src',"../image/circuit-breaker.png")
     }
 
     //What is Covid-19? Extra
     if (JSON.parse(localStorage.getItem("complete1")) == true){
-        $("#m1 img").attr('src',"../image/what-cov-ex.png")
+        $("#m4 img").attr('src',"../image/what-cov-ex.png")
     }
 
     //How it became pandemic
     if (JSON.parse(localStorage.getItem("complete1")) == true){
-        $("#m1 img").attr('src',"../image/covid-world.png")
+        $("#m5 img").attr('src',"../image/covid-world.png")
     }
 
     //Damages by covid
     if (JSON.parse(localStorage.getItem("complete1")) == true){
-        $("#m1 img").attr('src',"../image/effect-covid")
+        $("#m6 img").attr('src',"../image/effect-covid")
     }
-
-
-
-
-
-    
-    
+   
     //Event listener for buttons
 
     //event listener to send user to lesson 1
