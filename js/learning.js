@@ -7,28 +7,28 @@ $(document).ready(function (){
     }
 
     //Safety Precautions
-    if (JSON.parse(localStorage.getItem("complete1")) == true){
+    if (JSON.parse(localStorage.getItem("complete2")) == true){
         $("#m2 img").attr('src',"../image/safety-precautions.png")
     }
 
     //SG Circuit Breaker precautions
-    if (JSON.parse(localStorage.getItem("complete1")) == true){
+    if (JSON.parse(localStorage.getItem("complete3")) == true){
         $("#m3 img").attr('src',"../image/circuit-breaker.png")
     }
 
     //What is Covid-19? Extra
-    if (JSON.parse(localStorage.getItem("complete1")) == true){
+    if (JSON.parse(localStorage.getItem("complete4")) == true){
         $("#m4 img").attr('src',"../image/what-cov-ex.png")
     }
 
     //How it became pandemic
-    if (JSON.parse(localStorage.getItem("complete1")) == true){
+    if (JSON.parse(localStorage.getItem("complete5")) == true){
         $("#m5 img").attr('src',"../image/covid-world.png")
     }
 
     //Damages by covid
-    if (JSON.parse(localStorage.getItem("complete1")) == true){
-        $("#m6 img").attr('src',"../image/effect-covid")
+    if (JSON.parse(localStorage.getItem("complete6")) == true){
+        $("#m6 img").attr('src',"../image/effect-covid.png")
     }
    
     //Event listener for buttons
