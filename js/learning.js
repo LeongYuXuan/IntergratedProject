@@ -35,7 +35,7 @@ $(document).ready(function (){
 
     //event listener to send user to lesson 1
     $("#lesson-1").on("click",function(){
-        window.location.replace("lesson-1.html");
+        window.location.replace("../lesson-html/lesson-1.html");
     })
 
     //event listener to send user to lesson 2 

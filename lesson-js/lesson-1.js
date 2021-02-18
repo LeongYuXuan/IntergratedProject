@@ -76,13 +76,12 @@ $(document).ready(function (){
     $("#complete").on("click",function(){
         console.log("test complete");
 
-        //only give medal if all quizes correct
-        if (complete1 == true){
+        //set local storage item if all quizes correct
+        if (complete1 == true && localStorage.getItem("complete1") == null ){
             localStorage.setItem("complete1",JSON.stringify(complete1));
         }
-        
-        
     })
+
 
 
 
