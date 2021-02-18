@@ -19,5 +19,20 @@ $(document).ready(function (){
         window.location.replace("lesson-3.html");
     })
 
+    //event listener to send user to lesson 3
+    $("#lesson-4").on("click",function(){
+        window.location.replace("lesson-4.html");
+    })
+
+    //event listener to send user to lesson 3
+    $("#lesson-5").on("click",function(){
+        window.location.replace("lesson-5.html");
+    })
+
+    //event listener to send user to lesson 3
+    $("#lesson-6").on("click",function(){
+        window.location.replace("lesson-6.html");
+    })
+
 
 });
