@@ -40,27 +40,27 @@ $(document).ready(function (){
 
     //event listener to send user to lesson 2 
     $("#lesson-2").on("click",function(){
-        window.location.replace("lesson-2.html");
+        window.location.replace("../lesson-html/lesson-2.html");
     })
 
     //event listener to send user to lesson 3
     $("#lesson-3").on("click",function(){
-        window.location.replace("lesson-3.html");
+        window.location.replace("../lesson-html/lesson-3.html");
     })
 
     //event listener to send user to lesson 3
     $("#lesson-4").on("click",function(){
-        window.location.replace("lesson-4.html");
+        window.location.replace("../lesson-html/lesson-4.html");
     })
 
     //event listener to send user to lesson 3
     $("#lesson-5").on("click",function(){
-        window.location.replace("lesson-5.html");
+        window.location.replace("../lesson-html/lesson-5.html");
     })
 
     //event listener to send user to lesson 3
     $("#lesson-6").on("click",function(){
-        window.location.replace("lesson-6.html");
+        window.location.replace("../lesson-html/lesson-6.html");
     })
 
 
