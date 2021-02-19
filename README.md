@@ -60,8 +60,11 @@ Action: Use jigsaw validator to check for any errors
 Observation: All fine. Nice
 
 ### Run important HTML through W3C Validator
-Action: Use jigsaw validator to check for any errors
+Action: Use W3C validator to check for any errors
 
-Observation: All fine. Nice
+Observation: Quite number of errors. Mostly not giving img elements an "alt" attribute and the lang attribute for the html.
+Strange error in lesson 2 material regarding </p>, am unsure why that was the case...
+
+Status: Most errors cleared.
 ## Credits
 ???
