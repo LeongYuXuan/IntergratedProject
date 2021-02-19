@@ -11,7 +11,7 @@ $(document).ready(function (){
         e.preventDefault();
 
         //Check if the correct ans is choosen
-        if($('input[name="question1"]:checked').val() == "a"){
+        if($('input[name="question1"]:checked').val() == "c"){
             console.log("correct");
             $("#yes-one").show();
         } else {
