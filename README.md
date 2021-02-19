@@ -54,5 +54,14 @@ Action: Run through the lesson materials, but fail one quiz
 
 Observation: Code works as intended. No medal granted at the end
 
+### Run all css through Jigsaw Validator
+Action: Use jigsaw validator to check for any errors
+
+Observation: All fine. Nice
+
+### Run important HTML through W3C Validator
+Action: Use jigsaw validator to check for any errors
+
+Observation: All fine. Nice
 ## Credits
 ???
