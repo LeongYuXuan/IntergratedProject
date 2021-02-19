@@ -1,6 +1,6 @@
 # Intergrated Project
 ## Repository for Intergrated Project for 
-Github Page Link:
+Github Page Link: https://leongyuxuan.github.io/IntergratedProject/
 ## Project Name
 ### Webpage to inform and educate users about Covid-19 (Covinfo)
 A simple page, done as part of IP Project. Topic Choosen: Covid-19
