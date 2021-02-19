@@ -2,6 +2,8 @@ $(document).ready(function (){
     //hide all response messages 
     $(".response").hide();
 
+    //hide all future content
+
     //var which would trigger medal give 
     var complete2 = true;
     
