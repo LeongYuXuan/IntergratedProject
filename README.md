@@ -16,8 +16,8 @@ Once again, the workflow would be having the basic functionality be set in place
 ## Features (Added ones are ticked)
 - [x] Display Daily updated Cv Stats on Singapore
 - [x] Display Warning messages based on statistics on that day
-- [ ] Educational section with reading materials and quizes
-- [ ] Rewards for completing quizes/reaching milestones
+- [x] Educational section with reading materials and quizes (only done lesson 2)
+- [x] Rewards for completing quizes ~~/reaching milestones~~ sadly unable to do that
 - [x] Localstorage usage to track rewards
 - [x] Optional: Allow changing of countries ~~and save it in local storage~~ .
 ## Tech Used
@@ -43,6 +43,16 @@ Observation: Code works as intended. Numbers to gauge the warning messages need 
 Todo: Adjust warning breakpoints
 
 Status: Fixed
+
+### Run through of Lesson 2 page (intentinally botched)
+Action: Run through the lesson materials, but fail one quiz
+
+Observation: Code works as intended. No medal granted at the end
+
+### Run through of Lesson 2 page (proper)
+Action: Run through the lesson materials, but fail one quiz
+
+Observation: Code works as intended. No medal granted at the end
 
 ## Credits
 ???
