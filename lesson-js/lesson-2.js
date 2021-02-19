@@ -2,7 +2,9 @@ $(document).ready(function (){
     //hide all response messages 
     $(".response").hide();
 
-    //hide all future content
+    //hide all furthur content
+    $(".plus").hide();
+    $("#placeholder").hide();
 
     //var which would trigger medal give 
     var complete2 = true;
@@ -13,7 +15,7 @@ $(document).ready(function (){
         e.preventDefault();
 
         //Check if the correct ans is choosen
-        if($('input[name="question1"]:checked').val() == "c"){
+        if($('input[name="question1"]:checked').val() == "c" || $('input[name="question1"]:checked').val() == "b" ){
             console.log("correct");
             $("#yes-one").show();
         } else {
@@ -24,6 +26,10 @@ $(document).ready(function (){
 
         //disable form after input
         $("#quiz1 input").prop("disabled",true)
+
+        //reveal next section's content up to next quiz
+        $("#plus1").show();
+        $("#plus2").show();
         
         
     });
@@ -40,7 +46,7 @@ $(document).ready(function (){
         var d2 = $('#d2').prop('checked');
         
         //if statement to see if correct checkboxes are selected
-        if(a2 == true && b2 == true && c2 == true && d2 == true){
+        if(a2 == true && b2 == true && c2 == false || d2 == true){
             console.log("correct");
             $("#yes-two").show();
         } else {
@@ -51,27 +57,14 @@ $(document).ready(function (){
 
         //disable form after input
         $("#quiz2 input").prop("disabled",true)
+
+        //reveal finish button
+        $("#placeholder").show();
+
+
         
     });
 
-    //event listner to check if q3 is correct
-    $("#q3").on("click",function(e){
-        e.preventDefault();
-
-        //Check if the correct ans is choosen
-        if($('input[name="question3"]:checked').val() == "b"){
-            console.log("correct");
-            $("#yes-three").show();
-        } else {
-            console.log("wrong");
-            $("#no-three").show();
-            complete2 = false;
-        }
-
-        //disable form after input
-        $("#quiz3 input").prop("disabled",true)
-        
-    });
 
     
     //Finish lesson button.
