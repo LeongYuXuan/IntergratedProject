@@ -67,4 +67,24 @@ Strange error in lesson 2 material regarding </p>, am unsure why that was the ca
 
 Status: Most errors cleared.
 ## Credits
-???
+Cat placeholder image from:
+
+BBC.(26 March 2020).Coronavirus: Cat owners fear pets will make them sick. Retrievedfrom BBC:https://www.bbc.com/news/uk-england-stoke-staffordshire-52047832 
+
+Dog placeholder image from:
+
+Mallapaty,S.(14 May 2020).Dogs caught coronavirus from their owners, genetic analysis suggests. Retrieved from nature: https://www.nature.com/articles/d41586-020-01430-5
+
+Rat placeholder image from:
+
+Unknown.(NIL).Fat Rat Being Grabbed. Retrieved from Know Your Meme: https://knowyourmeme.com/memes/fat-rat-being-grabbed
+
+Freyja Placeholder Gif from:
+
+Unknown.(22 June 2017).Macross "September" Delta GIF. Retrieved from Gfycat: https://gfycat.com/academicellipticaldwarfmongoose
+
+Macross Delta Placeholder Image from:
+
+HandheldPlayers.(10 August 2016).PS VITA EXCLUSIVE MACROSS DELTA SCRAMBLE GETS ITS FIRST PROMOTION TRAILER. Retrieved from HandheldPlayers: https://www.handheldplayers.com/2016/08/10/ps-vita-exclusive-macross-delta-scramble-gets-its-first-promotion-trailer/
+
+
