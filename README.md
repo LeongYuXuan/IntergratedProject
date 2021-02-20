@@ -26,6 +26,7 @@ Once again, the workflow would be having the basic functionality be set in place
 * W3C CSS "Jigsaw" validator https://jigsaw.w3.org/css-validator/
 * jshint JS linter(?) https://jshint.com/
 * CV-19 API: https://disease.sh/
+* Bootstrap templates:https://getbootstrap.com/docs/5.0/getting-started/download/
 ## Test Runs
 
 ### Test changing of country to display different country (9 Feb 2021)
@@ -66,10 +67,10 @@ Observation: Quite number of errors. Mostly not giving img elements an "alt" att
 Strange error in lesson 2 material regarding </p>, am unsure why that was the case...
 
 Status: Most errors cleared.
-## Credits
+## Credits for Placeholder Images
 Cat placeholder image from:
 
-BBC.(26 March 2020).Coronavirus: Cat owners fear pets will make them sick. Retrievedfrom BBC:https://www.bbc.com/news/uk-england-stoke-staffordshire-52047832 
+BBC.(26 March 2020).Coronavirus: Cat owners fear pets will make them sick. Retrieved from BBC:https://www.bbc.com/news/uk-england-stoke-staffordshire-52047832 
 
 Dog placeholder image from:
 
@@ -87,4 +88,20 @@ Macross Delta Placeholder Image from:
 
 HandheldPlayers.(10 August 2016).PS VITA EXCLUSIVE MACROSS DELTA SCRAMBLE GETS ITS FIRST PROMOTION TRAILER. Retrieved from HandheldPlayers: https://www.handheldplayers.com/2016/08/10/ps-vita-exclusive-macross-delta-scramble-gets-its-first-promotion-trailer/
 
+## Credits for Lesson 1 Images
+
+Seladi-Schulman,J,Weatherspoon,D.(June 2, 2020).Can Face Masks Protect You from the 2019 Coronavirus? What Types, When and How to Use. Retrieved from healthline:https://www.healthline.com/health/coronavirus-mask 
+
+Cairns,R.(May 5, 2020).How to wash your hands and how long it takes to get clean. Retrieved from Insider:https://www.insider.com/how-long-should-you-wash-your-hands
+
+optimummedical.(Unknown).How to properly wash your hands – The 12 steps of hand washing. Retrieved from optimummedical:https://optimummedical.co.uk/products/how-to-properly-your-wash-hands/
+
+Rousonelos,K.(Aug. 4, 2020).Dangerous hand sanitizer list tops 100, says FDA. Retrieved from nbc15: https://www.nbc15.com/2020/08/03/dangerous-hand-sanitizer-list-tops-100-says-fda/
+
+American University.(June 1, 2020).Study Looks at Attitudes Toward Social Distancing in COVID-19 Pandemic. Retrieved from American University:https://www.american.edu/spa/news/study-looks-at-attitudes-toward-social-distancing-in-covid-19-pandemic.cfm
+
+## Credits for Other images.
+Site logo, Medal Base design and Medal design for "Circuit Breaker Guidelines", "Safety Precautions" and "How Cv-19 became a pandemic" by yours truely.
+
+Medal Design for "What is Covid-19 (Brief)", "What is Covid-19 "What is Covid-19 (Extra)" and "Damages by Covid-19" by Teammate for IP project.
 
