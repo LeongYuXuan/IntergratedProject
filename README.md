@@ -51,7 +51,7 @@ Action: Run through the lesson materials, but fail one quiz
 Observation: Code works as intended. No medal granted at the end
 
 ### Run through of Lesson 2 page (proper)
-Action: Run through the lesson materials, but fail one quiz
+Action: Run through the lesson materials, but complete bots quizes
 
 Observation: Code works as intended. No medal granted at the end
 
