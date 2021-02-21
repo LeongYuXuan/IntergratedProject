@@ -64,9 +64,19 @@ Observation: All fine. Nice
 Action: Use W3C validator to check for any errors
 
 Observation: Quite number of errors. Mostly not giving img elements an "alt" attribute and the lang attribute for the html.
-Strange error in lesson 2 material regarding </p>, am unsure why that was the case...
+Strange error in lesson 2 material regarding "</p>", am unsure why that was the case...
 
 Status: Most errors cleared.
+
+### Showcase to Teamate
+Action: Got teammate to use the site because why not? (For fun)
+
+Observation: Top Dropbox is not working as intended, which is bad.
+
+Todo: Fix that error
+
+Status: Not Fixed
+
 ## Credits for Placeholder Images
 Cat placeholder image from:
 
