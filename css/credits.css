@@ -3,7 +3,6 @@
     display: flex;
     flex-direction: column;
     width: 414px;
-    height: 600px;
     border-color: black;
     border-style:solid;
 }
@@ -24,8 +23,11 @@
 
 
 .content-box{
-    margin: 10px;
-    display: flex;
-    justify-content: center;
+    margin: 5px;
+}
+
+.section{
+    margin-top: 10px;
+    margin-bottom: 50px;
     
 }
