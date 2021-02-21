@@ -98,17 +98,17 @@ Macross Delta Placeholder Image from:
 
 HandheldPlayers.(10 August 2016).PS VITA EXCLUSIVE MACROSS DELTA SCRAMBLE GETS ITS FIRST PROMOTION TRAILER. Retrieved from HandheldPlayers: https://www.handheldplayers.com/2016/08/10/ps-vita-exclusive-macross-delta-scramble-gets-its-first-promotion-trailer/
 
-## Credits for Lesson 1 Images
+## Credits for Lesson 2 Images
 
-Seladi-Schulman,J,Weatherspoon,D.(June 2, 2020).Can Face Masks Protect You from the 2019 Coronavirus? What Types, When and How to Use. Retrieved from healthline:https://www.healthline.com/health/coronavirus-mask 
+Seladi-Schulman,J,Weatherspoon,D.(June 2, 2020).Can Face Masks Protect You from the 2019 Coronavirus? What Types, When and How to Use. Retrieved from healthline: https://www.healthline.com/health/coronavirus-mask 
 
-Cairns,R.(May 5, 2020).How to wash your hands and how long it takes to get clean. Retrieved from Insider:https://www.insider.com/how-long-should-you-wash-your-hands
+Cairns,R.(May 5, 2020).How to wash your hands and how long it takes to get clean. Retrieved from Insider: https://www.insider.com/how-long-should-you-wash-your-hands
 
-optimummedical.(Unknown).How to properly wash your hands – The 12 steps of hand washing. Retrieved from optimummedical:https://optimummedical.co.uk/products/how-to-properly-your-wash-hands/
+optimummedical.(Unknown).How to properly wash your hands – The 12 steps of hand washing. Retrieved from optimummedical: https://optimummedical.co.uk/products/how-to-properly-your-wash-hands/
 
 Rousonelos,K.(Aug. 4, 2020).Dangerous hand sanitizer list tops 100, says FDA. Retrieved from nbc15: https://www.nbc15.com/2020/08/03/dangerous-hand-sanitizer-list-tops-100-says-fda/
 
-American University.(June 1, 2020).Study Looks at Attitudes Toward Social Distancing in COVID-19 Pandemic. Retrieved from American University:https://www.american.edu/spa/news/study-looks-at-attitudes-toward-social-distancing-in-covid-19-pandemic.cfm
+American University.(June 1, 2020).Study Looks at Attitudes Toward Social Distancing in COVID-19 Pandemic. Retrieved from American University: https://www.american.edu/spa/news/study-looks-at-attitudes-toward-social-distancing-in-covid-19-pandemic.cfm
 
 ## Credits for Other images.
 Site logo, Medal Base design and Medal design for "Circuit Breaker Guidelines", "Safety Precautions" and "How Cv-19 became a pandemic" by yours truely.
